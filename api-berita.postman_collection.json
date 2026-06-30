@@ -1,0 +1,122 @@
+{
+	"info": {
+		"name": "API Berita",
+		"description": "Collection untuk testing API berita sesuai modul",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "GET Semua Berita",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{base_url}}/api/berita",
+					"host": ["{{base_url}}"],
+					"path": ["api", "berita"]
+				}
+			}
+		},
+		{
+			"name": "GET Detail Berita",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{base_url}}/api/berita/1",
+					"host": ["{{base_url}}"],
+					"path": ["api", "berita", "1"]
+				}
+			}
+		},
+		{
+			"name": "POST Tambah Berita",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "judul_berita",
+							"value": "Judul Berita Baru",
+							"type": "text"
+						},
+						{
+							"key": "konten_berita",
+							"value": "Isi konten berita disini",
+							"type": "text"
+						},
+						{
+							"key": "gambar_berita",
+							"value": "",
+							"type": "file",
+							"src": ""
+						}
+					]
+				},
+				"url": {
+					"raw": "{{base_url}}/api/berita",
+					"host": ["{{base_url}}"],
+					"path": ["api", "berita"]
+				}
+			}
+		},
+		{
+			"name": "POST Update Berita (with _method=PUT)",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "_method",
+							"value": "PUT",
+							"type": "text"
+						},
+						{
+							"key": "judul_berita",
+							"value": "Judul Berita Update",
+							"type": "text"
+						},
+						{
+							"key": "konten_berita",
+							"value": "Konten berita setelah diupdate",
+							"type": "text"
+						},
+						{
+							"key": "gambar_berita",
+							"value": "",
+							"type": "file",
+							"src": ""
+						}
+					]
+				},
+				"url": {
+					"raw": "{{base_url}}/api/berita/1",
+					"host": ["{{base_url}}"],
+					"path": ["api", "berita", "1"]
+				}
+			}
+		},
+		{
+			"name": "DELETE Berita",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "{{base_url}}/api/berita/1",
+					"host": ["{{base_url}}"],
+					"path": ["api", "berita", "1"]
+				}
+			}
+		}
+	],
+	"variable": [
+		{
+			"key": "base_url",
+			"value": "http://localhost:8000"
+		}
+	]
+}
