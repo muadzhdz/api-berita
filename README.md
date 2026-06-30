@@ -6,7 +6,7 @@ Dosen: *(isi nama dosen)*
 
 ---
 
-## 📋 Informasi Tugas
+## Informasi Tugas
 
 | | |
 |---|---|
@@ -19,7 +19,7 @@ Tugas ini bertujuan untuk membangun sebuah **RESTful API** berbasis Laravel yang
 
 ---
 
-## 🛠️ Teknologi yang Digunakan
+## Teknologi yang Digunakan
 
 | Teknologi | Keterangan |
 |---|---|
@@ -30,7 +30,7 @@ Tugas ini bertujuan untuk membangun sebuah **RESTful API** berbasis Laravel yang
 
 ---
 
-## 📦 Instalasi & Konfigurasi
+## Instalasi & Konfigurasi
 
 ### 1. Clone Project
 
@@ -85,7 +85,7 @@ Akses API di `http://localhost:8000/api/berita`
 
 ---
 
-## 📁 Struktur Database
+## Struktur Database
 
 **Tabel:** `beritas`
 
@@ -106,7 +106,7 @@ Akses API di `http://localhost:8000/api/berita`
 
 ---
 
-## 📡 Endpoint API
+## Endpoint API
 
 Semua endpoint dapat diakses melalui prefix `/api/berita`.
 
@@ -243,7 +243,7 @@ DELETE /api/berita/1
 
 ---
 
-## 🖼️ Fitur Konversi Gambar ke WebP
+## Fitur Konversi Gambar ke WebP
 
 Setiap gambar yang diupload akan secara otomatis:
 
@@ -256,7 +256,7 @@ File gambar lama akan otomatis terhapus ketika diperbarui atau data berita dihap
 
 ---
 
-## 🧪 Testing dengan Postman
+## Testing dengan Postman
 
 ### Import Collection
 
@@ -269,7 +269,7 @@ File gambar lama akan otomatis terhapus ketika diperbarui atau data berita dihap
 
 ---
 
-## 📸 Hasil Testing API
+## Hasil Testing API
 
 > *Screenshot hasil testing dapat ditambahkan disini*
 
@@ -283,25 +283,17 @@ File gambar lama akan otomatis terhapus ketika diperbarui atau data berita dihap
 
 ---
 
-## ✅ Kesimpulan
+## Kesimpulan
 
 Tugas ini berhasil menyelesaikan pembuatan **RESTful API** untuk data berita menggunakan Laravel dengan fitur:
-
-- ✅ CRUD lengkap (Create, Read, Update, Delete)
-- ✅ Upload gambar dengan konversi otomatis ke WebP
-- ✅ Validasi input di sisi server
-- ✅ URL gambar otomatis melalui accessor `url_gambar`
-- ✅ Image scaling otomatis (max width 800px)
-- ✅ Hapus file gambar lama saat update/delete
-- ✅ 5 endpoint API siap pakai
+- CRUD lengkap (Create, Read, Update, Delete)
+- Upload gambar dengan konversi otomatis ke WebP
+- Validasi input di sisi server
+- URL gambar otomatis melalui accessor `url_gambar`
+- Image scaling otomatis (max width 800px)
+- Hapus file gambar lama saat update/delete
+- 5 endpoint API siap pakai
 
 Semua endpoint telah diuji menggunakan Postman dan berjalan dengan baik.
 
----
 
-## 👨‍💻 Developer
-
-**Nama:** *(isi nama)*  
-**NPM:** *(isi npm)*  
-**Mata Kuliah:** Pemrograman Web Interaktif  
-**Pertemuan:** 14  
