@@ -2,8 +2,6 @@
 
 **Tugas Pemrograman Web Interaktif — Pertemuan 14**
 
-Dosen: *(isi nama dosen)*
-
 ---
 
 ## Informasi Tugas
